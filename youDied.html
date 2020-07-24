@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/master.css">
+  <title>Document</title>
+</head>
+<h1></h1>
+
+<body>
+
+  <div class="container">
+
+  <div id= "scene">
+
+    <h1></h1>
+
+    <p> the door flies open and is flooded with creatures in seconds. They waste no time 
+      pulling you apart and painting the room with your inisides. 
+    Youre Dead! </p>
+
+    <p><a href="index.html"> GAME OVER! </a></p>
+    <!-- <p><a href="escape2dangerRoom.html"> back up the passage </a></p> -->
+  
+  
+
+  </div>
+<style>
+
+  .container {
+    animation: transitionIn 0.75s;
+  }
+
+  @keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+
+    }
+    
+
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+   
+  }
+
+body {
+font-size: 30px;
+top: 400px;
+background-color: black;
+color: cornsilk;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+h1 {
+
+font-family: monospace;
+font-size: 40px;
+padding-top: 5px;
+position: relative;
+
+
+}
+
+a {
+
+  color: gainsboro;
+
+
+}
+
+#scene {
+
+background: url("youDied.png") no-repeat;
+width: 100vw;
+height: 100vh;
+
+}
+
+p {
+    font-size: 30px;
+    position: relative;
+    top: 400px;
+    background-color: rgba(255, 0, 0, 0.139);
+    color: cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    </style>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/master.css">
+  <title>Document</title>
+</head>
+
+
+<body>
+
+  <div id= "scene">
+
+    <h1></h1>
+
+    <p> the Doc slaps you in the face with the flat side of a rusty axe. 
+      Makes you realize that she is not playing! She tells you to be careful what you ask for!
+    </p>
+
+    <p><a href="backToCell.html"> stay still </a></p>
+    <p><a href="secondWarning.html"> yell let me out! </a></p>
+
+    
+    
+  </div>
+    
+  <style>
+
+    .container {
+      animation: transitionIn 0.75s;
+    }
+  
+    @keyframes transitionIn {
+      from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+  
+      }
+      
+  
+      to {
+        opacity: 1;
+        transform: rotateX(0);
+      }
+     
+    }
+  
+  body {
+  font-size: 30px;
+  top: 400px;
+  background-color: black;
+  color: cornsilk;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  
+  }
+  
+  h1 {
+  
+  font-family: monospace;
+  font-size: 40px;
+  padding-top: 5px;
+  position: relative;
+  
+  
+  }
+  
+  a {
+  
+    color: gainsboro;
+  
+  
+  }
+  
+  #scene {
+  
+  background: url("firstWarning.png") no-repeat;
+  width: 100vw;
+  height: 100vh;
+  
+  }
+  
+  p {
+      font-size: 30px;
+      position: relative;
+      top: 400px;
+      background-color: rgba(255, 0, 0, 0.139);
+      color: cornsilk;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+      </style>
+
+</body>
+</html>
+
+
+
+
